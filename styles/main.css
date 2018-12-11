@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700&subset=cyrillic");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body .avatar-wrap {
+  width: 600px;
+  height: 300px;
+}
+
+body .avatar-wrap .hexagon {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+}
+
+body .avatar-wrap .hexagon .hex-in1 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+body .avatar-wrap .hexagon .hex-in1 .hex-in2 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-image: url("../images/polygon_base.png");
+  background-size: 58%;
+  visibility: visible;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+body .av1 {
+  background-image: url("../images/VanyaKiller.png");
+}
+
+body .av2 {
+  background-image: url("../images/av2.png");
+}
+
+body .av5 {
+  background-image: url("../images/Polygon_2.png");
+}
+
+body .av-base {
+  background-image: url("../images/polygon_base.png");
+}
+
+body .link {
+  height: 300px;
+  width: 500px;
+  background: yellow;
+}
+
+body .link .link-block {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+body .link .link-block:hover {
+  background: #FFD128;
+}
+/*# sourceMappingURL=main.css.map */
